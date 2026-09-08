@@ -1,8 +1,12 @@
 # Track Me Please
 
+---
+
 ### Project Decription
 
 Real-time object tracker that can follow a specific object in a live webcam feed.
+
+---
 
 ### How to install
 
@@ -14,6 +18,7 @@ you must have `python` and `pip` available
 ```bash
 pip install -e .
 ```
+---
 
 ###### Virtual Environment (pip)
 If you have `venv` available, this is the command to use.
@@ -26,6 +31,9 @@ source .venv/bin/activate       # Linux
 
 pip install -e .
 ```
+
+---
+
 ###### Virtual Environment (uv)
 
 If you have `uv` available, this is the command to use.
@@ -34,12 +42,18 @@ If you have `uv` available, this is the command to use.
 uv sync
 ```
 
+---
+
 #### Start Application
 
 ```python
 python main.py 
 ```
 
+---
+
 ### References
 
 1. [Main Source](https://github.com/murtazahassan/OpenCV-Python-Tutorials-and-Projects/blob/master/Intermediate/objectTracking.py)
+
+---
