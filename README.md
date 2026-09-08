@@ -13,7 +13,7 @@ Real-time object tracker that can follow a specific object in a live webcam feed
 #### Install Github Repo
 
 ```python
-git clone git@github.com:Mohamed-Mohamed-Ibrahim/Track-Me-Please.git
+git clone https://github.com/Mohamed-Mohamed-Ibrahim/Track-Me-Please.git
 ```
 
 #### Navigate to the directory/folder
