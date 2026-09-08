@@ -10,6 +10,18 @@ Real-time object tracker that can follow a specific object in a live webcam feed
 
 ### How to install
 
+#### Install Github Repo
+
+```python
+git clone git@github.com:Mohamed-Mohamed-Ibrahim/Track-Me-Please.git
+```
+
+#### Navigate to the directory/folder
+
+```python
+cd Track-Me-Please
+```
+
 #### Install Dependencies
 
 ###### Global Dependencies
