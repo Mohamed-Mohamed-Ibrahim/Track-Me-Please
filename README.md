@@ -46,11 +46,11 @@ uv sync
 
 #### Start Application
 
-Default: MOOSE
+Default: MOsSE
 
 ```python
 python main.py 
-python main.py -a moose     # the same as above
+python main.py -a mosse     # the same as above
 ```
 
 KCF
@@ -64,6 +64,19 @@ CSRT
 ```python
 python main.py -a csrt  
 ```
+
+---
+
+### Short Implementation Details
+
+- `cv2.legacy.TrackerMOSSE_create()`: store a reference to the tracking within `tracker` 
+- `selectROI`: lets the user selects the boundary box 
+- `tracker.init`: initialize the tracker
+- `cap.read()`: Reading frame from webcam
+- `tracker.update`: update the tracker data
+- `drawBox`: function to draw the box if the object is tracked successfully
+- `cv2.waitKey(1) & 0xFF == ord("q")`: exit application if 
+
 
 ---
 
