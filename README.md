@@ -46,8 +46,23 @@ uv sync
 
 #### Start Application
 
+Default: MOOSE
+
 ```python
 python main.py 
+python main.py -a moose     # the same as above
+```
+
+KCF
+
+```python
+python main.py -a kcf     
+```
+
+CSRT
+
+```python
+python main.py -a csrt  
 ```
 
 ---
