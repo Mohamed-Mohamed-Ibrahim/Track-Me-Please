@@ -1,4 +1,5 @@
 import argparse
+from constants.tracking_algorithm_enum import TrackingAlgorithm
 
 
 def get_parser():
@@ -6,7 +7,7 @@ def get_parser():
     parser.add_argument(
         "-a",
         "--algorithm",
-        choices=["mosse", "kcf", "csrt"],
+        choices=[algorithm.value for algorithm in TrackingAlgorithm],
         default="mosse",
         help="Tracking Algorithm",
     )
